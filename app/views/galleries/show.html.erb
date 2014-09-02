@@ -2,7 +2,7 @@
 
 <% @paintings.each do |painting| %>
 <h3><%= painting.title %></h3>
-<%= image_tag painting.image_url(:thumb).to_s %>
+<%= link_to image_tag(painting.image_url(:thumb).to_s), gallery_painting_path(@gallery, painting)  %>
 <small><%= link_to 'Edit', edit_gallery_painting_path(@gallery, painting) %></small>
 <small><%= link_to 'Delete', gallery_painting_path(@gallery, painting), method: :delete, data: {confirm: 'Are you sure?' } %></small>
 <% end %>

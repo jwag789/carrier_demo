@@ -1,5 +1,6 @@
 class PaintingsController < ApplicationController
 	def show
+		@gallery = Gallery.find(params[:gallery_id])
 		@painting = Painting.find(params[:id])
 	end
 
@@ -9,6 +10,7 @@ class PaintingsController < ApplicationController
 	end
 
 	def create
+		@gallery = Gallery.find(params[:gallery_id])
 		@painting = Painting.new(painting_params)
 		@painting.gallery_id = params[:gallery_id]
 		if @painting.save
@@ -44,6 +46,6 @@ class PaintingsController < ApplicationController
 
 	private
 	def painting_params
-		params.require(:painting).permit(:title, :image)
+		params.require(:painting).permit(:title, :image, :remote_image_url)
 	end
 end

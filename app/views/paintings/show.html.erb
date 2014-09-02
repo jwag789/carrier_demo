@@ -1,0 +1,6 @@
+<h1><%= @painting.title %></h1>
+
+<%= image_tag @painting.image_url.to_s  %>
+<br><br>
+<%= link_to 'Back', gallery_path(@gallery) %>
+<br><br>
