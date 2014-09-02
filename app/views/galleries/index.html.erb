@@ -1,4 +1,5 @@
-<h1>Image Uploading!</h1>
+<div class="container">
+<h1>Image Uploading!</h1><br><br>
 
 <% @galleries.each do |gallery| %>
 <h3><%= link_to "#{gallery.title}", gallery_path(gallery) %></h3>
@@ -7,3 +8,4 @@
 <% end %>
 <br><br>
 <%= link_to "Create New Gallery", new_gallery_path %>
+</div>
