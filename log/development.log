@@ -12126,3 +12126,3474 @@ Processing by GalleriesController#index as HTML
   [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 4]]
   Rendered galleries/index.html.erb within layouts/application (5.1ms)
 Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:31:06 -0400
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.9ms)[0m  [1mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 2]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 4]]
+  Rendered galleries/index.html.erb within layouts/application (46.3ms)
+Completed 200 OK in 71ms (Views: 40.5ms | ActiveRecord: 25.0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:31:06 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:31:06 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:31:06 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:31:06 -0400
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:31:06 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:31:06 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:31:06 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:31:06 -0400
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:31:16 -0400
+Processing by GalleriesController#index as HTML
+  [1m[35mGallery Load (0.5ms)[0m  SELECT "galleries".* FROM "galleries"
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 2]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 4]]
+  Rendered galleries/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 19ms (Views: 16.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:31:16 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:31:16 -0400
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:31:16 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:31:16 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:31:16 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:31:16 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:31:16 -0400
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:31:18 -0400
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.7ms)[0m  [1mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35mPainting Load (1.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 2]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 4]]
+  Rendered galleries/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 13ms (Views: 10.3ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:31:18 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:31:18 -0400
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:31:18 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:31:18 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:31:18 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:31:18 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:31:18 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 01:31:23 -0400
+Processing by GalleriesController#index as HTML
+  [1m[35mGallery Load (0.4ms)[0m  SELECT "galleries".* FROM "galleries"
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 2]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 4]]
+  Rendered galleries/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:31:23 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 01:31:23 -0400
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.5ms)[0m  [1mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 2]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 4]]
+  Rendered galleries/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:31:23 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:31:23 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:31:23 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:31:23 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:31:23 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:31:23 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:31:23 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:31:23 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:31:23 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:31:23 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:31:23 -0400
+
+
+Started GET "/galleries/2" for 127.0.0.1 at 2014-09-02 01:31:26 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mGallery Load (0.3ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mPainting Load (0.4ms)[0m  [1mSELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  Rendered galleries/show.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 21ms (Views: 19.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/galleries/4" for 127.0.0.1 at 2014-09-02 01:31:29 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mGallery Load (0.3ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 4]]
+  Rendered galleries/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 9ms (Views: 6.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/galleries/2" for 127.0.0.1 at 2014-09-02 01:31:32 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mGallery Load (0.3ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mPainting Load (0.5ms)[0m  [1mSELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  Rendered galleries/show.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/galleries/2" for 127.0.0.1 at 2014-09-02 01:31:35 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mGallery Load (0.3ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  Rendered galleries/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 9ms (Views: 6.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/galleries/4" for 127.0.0.1 at 2014-09-02 01:31:37 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mGallery Load (0.3ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 4]]
+  Rendered galleries/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/galleries/new" for 127.0.0.1 at 2014-09-02 01:31:42 -0400
+Processing by GalleriesController#new as HTML
+  Rendered galleries/_form.html.erb (3.2ms)
+  Rendered galleries/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 01:34:01 -0400
+Processing by GalleriesController#index as HTML
+  [1m[35mGallery Load (0.5ms)[0m  SELECT "galleries".* FROM "galleries"
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 2]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 4]]
+  Rendered galleries/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:34:01 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:34:01 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:34:01 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:34:01 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:34:01 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:34:01 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:34:01 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:34:01 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:34:01 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:34:01 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:34:01 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 01:34:47 -0400
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.5ms)[0m  [1mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 2]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 4]]
+  Rendered galleries/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:34:47 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:34:47 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:34:47 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:34:47 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:34:47 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:34:47 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:34:47 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:34:47 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:34:47 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:34:47 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:34:47 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 01:35:02 -0400
+Processing by GalleriesController#index as HTML
+  [1m[35mGallery Load (0.4ms)[0m  SELECT "galleries".* FROM "galleries"
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 2]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 4]]
+  Rendered galleries/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 41ms (Views: 39.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:35:02 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:35:02 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:35:02 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:35:02 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:35:02 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:35:02 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:35:02 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:35:02 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:35:02 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:35:02 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:35:02 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 01:36:29 -0400
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.4ms)[0m  [1mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 2]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 4]]
+  Rendered galleries/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 41ms (Views: 38.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:36:30 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:36:30 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:36:30 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:36:30 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:36:30 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:36:30 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:36:30 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:36:30 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:36:30 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:36:30 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:36:30 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 01:37:30 -0400
+Processing by GalleriesController#index as HTML
+  [1m[35mGallery Load (0.4ms)[0m  SELECT "galleries".* FROM "galleries"
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 2]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 4]]
+  Rendered galleries/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 43ms (Views: 41.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:37:30 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:37:30 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:37:30 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:37:30 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:37:30 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:37:30 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:37:30 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:37:30 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:37:30 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:37:30 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:37:30 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 01:37:42 -0400
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.5ms)[0m  [1mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 2]]
+  [1m[36mPainting Load (0.4ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 4]]
+  Rendered galleries/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 42ms (Views: 39.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:37:42 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:37:42 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:37:42 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:37:42 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:37:42 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:37:42 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:37:42 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:37:42 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:37:42 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:37:42 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:37:42 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 01:37:46 -0400
+Processing by GalleriesController#index as HTML
+  [1m[35mGallery Load (0.4ms)[0m  SELECT "galleries".* FROM "galleries"
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 2]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 4]]
+  Rendered galleries/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 42ms (Views: 40.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:37:46 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:37:46 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:37:46 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:37:46 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:37:46 -0400
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:37:46 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:37:46 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:37:46 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:37:46 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:37:46 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:37:46 -0400
+
+
+Started GET "/galleries/new" for 127.0.0.1 at 2014-09-02 01:37:57 -0400
+Processing by GalleriesController#new as HTML
+  Rendered galleries/_form.html.erb (2.1ms)
+  Rendered galleries/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/galleries" for 127.0.0.1 at 2014-09-02 01:38:03 -0400
+Processing by GalleriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"k8bHvv2/cde8FhvnwFGhLgC4QwYaLnGC5h+AH3EbgJI=", "gallery"=>{"title"=>"Hey"}, "commit"=>"Create Gallery"}
+  [1m[36m (8.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (6.1ms)[0m  INSERT INTO "galleries" ("created_at", "title", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2014-09-02 05:38:03.198293"], ["title", "Hey"], ["updated_at", "2014-09-02 05:38:03.198293"]]
+  [1m[36m (2.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/galleries/5
+Completed 302 Found in 21ms (ActiveRecord: 16.9ms)
+
+
+Started GET "/galleries/5" for 127.0.0.1 at 2014-09-02 01:38:03 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mGallery Load (0.3ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 5]]
+  Rendered galleries/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:38:03 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:38:03 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:38:03 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:38:03 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:38:03 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:38:03 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:38:03 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:38:03 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:38:03 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:38:03 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:38:03 -0400
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:38:05 -0400
+Processing by GalleriesController#index as HTML
+  [1m[35mGallery Load (0.4ms)[0m  SELECT "galleries".* FROM "galleries"
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 2]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 4]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 5]]
+  Rendered galleries/index.html.erb within layouts/application (8.1ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (undefined method `image_url' for nil:NilClass):
+    4: <% @galleries.each do |gallery| %>
+    5: <div class="gallery">
+    6: <h3><%= link_to "#{gallery.title}", gallery_path(gallery) %></h3><br>
+    7: <div class="thumb"><%= link_to image_tag(gallery.paintings.last.image_url(:thumb).to_s), gallery_path(gallery)  %></div><br><br>
+    8: <small><%= link_to 'Edit', edit_gallery_path(gallery) %></small>
+    9: <small><%= link_to 'Delete', gallery_path(gallery), method: :delete, data: {confirm: 'Are you sure?' } %></small><br><br><br>
+   10: </div>
+  app/views/galleries/index.html.erb:7:in `block in _app_views_galleries_index_html_erb___603920028546050718_70190338035300'
+  app/views/galleries/index.html.erb:4:in `_app_views_galleries_index_html_erb___603920028546050718_70190338035300'
+
+
+  Rendered /Users/justinwagner/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/justinwagner/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/justinwagner/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.7ms)
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:38:05 -0400
+Processing by GalleriesController#index as HTML
+  [1m[35mGallery Load (0.4ms)[0m  SELECT "galleries".* FROM "galleries"
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 2]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 4]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 5]]
+  Rendered galleries/index.html.erb within layouts/application (7.5ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (undefined method `image_url' for nil:NilClass):
+    4: <% @galleries.each do |gallery| %>
+    5: <div class="gallery">
+    6: <h3><%= link_to "#{gallery.title}", gallery_path(gallery) %></h3><br>
+    7: <div class="thumb"><%= link_to image_tag(gallery.paintings.last.image_url(:thumb).to_s), gallery_path(gallery)  %></div><br><br>
+    8: <small><%= link_to 'Edit', edit_gallery_path(gallery) %></small>
+    9: <small><%= link_to 'Delete', gallery_path(gallery), method: :delete, data: {confirm: 'Are you sure?' } %></small><br><br><br>
+   10: </div>
+  app/views/galleries/index.html.erb:7:in `block in _app_views_galleries_index_html_erb___603920028546050718_70190369867960'
+  app/views/galleries/index.html.erb:4:in `_app_views_galleries_index_html_erb___603920028546050718_70190369867960'
+
+
+  Rendered /Users/justinwagner/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/justinwagner/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/justinwagner/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.3ms)
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:39:13 -0400
+Processing by GalleriesController#index as HTML
+  [1m[35mGallery Load (0.5ms)[0m  SELECT "galleries".* FROM "galleries"
+  Rendered galleries/index.html.erb within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (compared with non class/module):
+    4: <% @galleries.each do |gallery| %>
+    5: <div class="gallery">
+    6: <h3><%= link_to "#{gallery.title}", gallery_path(gallery) %></h3><br>
+    7: <% if gallery.paintings > 0 %><div class="thumb"><%= link_to image_tag(gallery.paintings.last.image_url(:thumb).to_s), gallery_path(gallery)  %><% end %></div><br><br>
+    8: <small><%= link_to 'Edit', edit_gallery_path(gallery) %></small>
+    9: <small><%= link_to 'Delete', gallery_path(gallery), method: :delete, data: {confirm: 'Are you sure?' } %></small><br><br><br>
+   10: </div>
+  app/views/galleries/index.html.erb:7:in `block in _app_views_galleries_index_html_erb___603920028546050718_70190338381020'
+  app/views/galleries/index.html.erb:4:in `_app_views_galleries_index_html_erb___603920028546050718_70190338381020'
+
+
+  Rendered /Users/justinwagner/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/justinwagner/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/justinwagner/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.1ms)
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:39:26 -0400
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.5ms)[0m  [1mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 2]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 4]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 5]]
+  Rendered galleries/index.html.erb within layouts/application (8.7ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (undefined method `image_url' for nil:NilClass):
+    4: <% @galleries.each do |gallery| %>
+    5: <div class="gallery">
+    6: <h3><%= link_to "#{gallery.title}", gallery_path(gallery) %></h3><br>
+    7: <% if gallery.paintings %> 0 %><div class="thumb"><%= link_to image_tag(gallery.paintings.last.image_url(:thumb).to_s), gallery_path(gallery)  %><% end %></div><br><br>
+    8: <small><%= link_to 'Edit', edit_gallery_path(gallery) %></small>
+    9: <small><%= link_to 'Delete', gallery_path(gallery), method: :delete, data: {confirm: 'Are you sure?' } %></small><br><br><br>
+   10: </div>
+  app/views/galleries/index.html.erb:7:in `block in _app_views_galleries_index_html_erb___603920028546050718_70190338546920'
+  app/views/galleries/index.html.erb:4:in `_app_views_galleries_index_html_erb___603920028546050718_70190338546920'
+
+
+  Rendered /Users/justinwagner/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/justinwagner/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/justinwagner/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.9ms)
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:39:27 -0400
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.5ms)[0m  [1mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 2]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 4]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 5]]
+  Rendered galleries/index.html.erb within layouts/application (8.4ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (undefined method `image_url' for nil:NilClass):
+    4: <% @galleries.each do |gallery| %>
+    5: <div class="gallery">
+    6: <h3><%= link_to "#{gallery.title}", gallery_path(gallery) %></h3><br>
+    7: <% if gallery.paintings %> 0 %><div class="thumb"><%= link_to image_tag(gallery.paintings.last.image_url(:thumb).to_s), gallery_path(gallery)  %><% end %></div><br><br>
+    8: <small><%= link_to 'Edit', edit_gallery_path(gallery) %></small>
+    9: <small><%= link_to 'Delete', gallery_path(gallery), method: :delete, data: {confirm: 'Are you sure?' } %></small><br><br><br>
+   10: </div>
+  app/views/galleries/index.html.erb:7:in `block in _app_views_galleries_index_html_erb___603920028546050718_70190338546920'
+  app/views/galleries/index.html.erb:4:in `_app_views_galleries_index_html_erb___603920028546050718_70190338546920'
+
+
+  Rendered /Users/justinwagner/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/justinwagner/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/justinwagner/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.5ms)
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:39:47 -0400
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.5ms)[0m  [1mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 2]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 2]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 4]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 4]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 5]]
+  Rendered galleries/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 16ms (Views: 12.8ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:39:47 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:39:47 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:39:47 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:39:47 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:39:47 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:39:47 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:39:47 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:39:47 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:39:47 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:39:47 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:39:47 -0400
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:41:21 -0400
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.5ms)[0m  [1mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 2]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 2]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 4]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 4]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 5]]
+  Rendered galleries/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 90ms (Views: 86.9ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:41:21 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:41:21 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:41:21 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:41:21 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:41:22 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:41:22 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:41:22 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:41:22 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:41:22 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:41:22 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:41:22 -0400
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:42:12 -0400
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.5ms)[0m  [1mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 2]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 2]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 4]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 4]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 5]]
+  Rendered galleries/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 16ms (Views: 13.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:42:12 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:42:12 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:42:12 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:42:12 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:42:12 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:42:12 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:42:12 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:42:12 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:42:12 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:42:12 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:42:12 -0400
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:42:35 -0400
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.5ms)[0m  [1mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 2]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 2]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 4]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 4]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 5]]
+  Rendered galleries/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 15ms (Views: 12.8ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:42:35 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:42:35 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:42:35 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:42:35 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:42:35 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:42:35 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:42:35 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:42:35 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:42:35 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:42:35 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:42:35 -0400
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:42:57 -0400
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.5ms)[0m  [1mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 2]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 2]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 4]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 4]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 5]]
+  Rendered galleries/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 40ms (Views: 37.6ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:42:58 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:42:58 -0400
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:42:58 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:42:58 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:42:58 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:42:58 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:42:58 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:42:58 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:42:58 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:42:58 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:42:58 -0400
+
+
+Started GET "/galleries/new" for 127.0.0.1 at 2014-09-02 01:43:06 -0400
+Processing by GalleriesController#new as HTML
+  Rendered galleries/_form.html.erb (1.3ms)
+  Rendered galleries/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:43:09 -0400
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.4ms)[0m  [1mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 2]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 2]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 4]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 4]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 5]]
+  Rendered galleries/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 15ms (Views: 12.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/galleries/new" for 127.0.0.1 at 2014-09-02 01:43:12 -0400
+Processing by GalleriesController#new as HTML
+  Rendered galleries/_form.html.erb (1.4ms)
+  Rendered galleries/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/galleries" for 127.0.0.1 at 2014-09-02 01:43:14 -0400
+Processing by GalleriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"k8bHvv2/cde8FhvnwFGhLgC4QwYaLnGC5h+AH3EbgJI=", "gallery"=>{"title"=>"empty"}, "commit"=>"Create Gallery"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "galleries" ("created_at", "title", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2014-09-02 05:43:14.728223"], ["title", "empty"], ["updated_at", "2014-09-02 05:43:14.728223"]]
+  [1m[36m (8.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/galleries/6
+Completed 302 Found in 14ms (ActiveRecord: 9.2ms)
+
+
+Started GET "/galleries/6" for 127.0.0.1 at 2014-09-02 01:43:14 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mGallery Load (0.3ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 6]]
+  Rendered galleries/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:43:14 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:43:14 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:43:14 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:43:14 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:43:14 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:43:14 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:43:14 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:43:14 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:43:14 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:43:14 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:43:14 -0400
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:43:16 -0400
+Processing by GalleriesController#index as HTML
+  [1m[35mGallery Load (0.4ms)[0m  SELECT "galleries".* FROM "galleries"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 2]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 4]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 4]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 5]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 6]]
+  Rendered galleries/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 14ms (Views: 11.7ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/galleries/5" for 127.0.0.1 at 2014-09-02 01:43:24 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mGallery Load (0.3ms)[0m  [1mSELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 5]]
+  Rendered galleries/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 8ms (Views: 5.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/galleries/5/paintings/new" for 127.0.0.1 at 2014-09-02 01:43:25 -0400
+Processing by PaintingsController#new as HTML
+  Parameters: {"gallery_id"=>"5"}
+  [1m[36mGallery Load (0.3ms)[0m  [1mSELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  Rendered paintings/_form.html.erb (3.8ms)
+  Rendered paintings/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 13ms (Views: 10.6ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/galleries/5/paintings" for 127.0.0.1 at 2014-09-02 01:43:47 -0400
+Processing by PaintingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"k8bHvv2/cde8FhvnwFGhLgC4QwYaLnGC5h+AH3EbgJI=", "painting"=>{"title"=>"Office Space", "remote_image_url"=>"http://i.imgur.com/4SW2g3i.png"}, "commit"=>"Create Painting", "gallery_id"=>"5"}
+  [1m[35mGallery Load (0.3ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "paintings" ("created_at", "gallery_id", "image", "title", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-09-02 05:43:48.750220"], ["gallery_id", 5], ["image", "4SW2g3i.png"], ["title", "Office Space"], ["updated_at", "2014-09-02 05:43:48.750220"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/galleries/5
+Completed 302 Found in 848ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/galleries/5" for 127.0.0.1 at 2014-09-02 01:43:48 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mGallery Load (0.3ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 5]]
+  Rendered galleries/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 9ms (Views: 6.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:43:48 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:43:48 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:43:48 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:43:48 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:43:48 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:43:48 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:43:48 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:43:48 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:43:48 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:43:48 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:43:48 -0400
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:43:50 -0400
+Processing by GalleriesController#index as HTML
+  [1m[35mGallery Load (0.7ms)[0m  SELECT "galleries".* FROM "galleries"
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 4]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 4]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 5]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 5]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 6]]
+  Rendered galleries/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 24ms (Views: 20.8ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/galleries/6/edit" for 127.0.0.1 at 2014-09-02 01:44:05 -0400
+Processing by GalleriesController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mGallery Load (0.3ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 6]]
+  Rendered galleries/_form.html.erb (3.0ms)
+  Rendered galleries/edit.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/galleries/6" for 127.0.0.1 at 2014-09-02 01:44:10 -0400
+Processing by GalleriesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"k8bHvv2/cde8FhvnwFGhLgC4QwYaLnGC5h+AH3EbgJI=", "gallery"=>{"title"=>"pics"}, "commit"=>"Update Gallery", "id"=>"6"}
+  [1m[36mGallery Load (0.3ms)[0m  [1mSELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.8ms)[0m  [1mUPDATE "galleries" SET "title" = $1, "updated_at" = $2 WHERE "galleries"."id" = 6[0m  [["title", "pics"], ["updated_at", "2014-09-02 05:44:10.329744"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+Redirected to http://127.0.0.1:3000/galleries/6
+Completed 302 Found in 21ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/galleries/6" for 127.0.0.1 at 2014-09-02 01:44:10 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mGallery Load (0.3ms)[0m  [1mSELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 6]]
+  Rendered galleries/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 7ms (Views: 4.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:44:10 -0400
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:44:10 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:44:10 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:44:10 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:44:10 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:44:10 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:44:10 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:44:10 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:44:10 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:44:10 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:44:10 -0400
+
+
+Started GET "/galleries/6/paintings/new" for 127.0.0.1 at 2014-09-02 01:44:12 -0400
+Processing by PaintingsController#new as HTML
+  Parameters: {"gallery_id"=>"6"}
+  [1m[36mGallery Load (0.2ms)[0m  [1mSELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  Rendered paintings/_form.html.erb (2.7ms)
+  Rendered paintings/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/galleries/6/paintings" for 127.0.0.1 at 2014-09-02 01:44:23 -0400
+Processing by PaintingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"k8bHvv2/cde8FhvnwFGhLgC4QwYaLnGC5h+AH3EbgJI=", "painting"=>{"title"=>"Rolex", "image"=>#<ActionDispatch::Http::UploadedFile:0x007faceab146c8 @tempfile=#<Tempfile:/var/folders/rx/ghjwmmg56d1_fx_7k_sfhzsc0000gn/T/RackMultipart20140902-16825-5f4ate>, @original_filename="yoyoyo 162.JPG", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"painting[image]\"; filename=\"yoyoyo 162.JPG\"\r\nContent-Type: image/jpeg\r\n">, "remote_image_url"=>""}, "commit"=>"Create Painting", "gallery_id"=>"6"}
+  [1m[35mGallery Load (0.2ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "paintings" ("created_at", "gallery_id", "image", "title", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-09-02 05:44:23.995296"], ["gallery_id", 6], ["image", "yoyoyo_162.JPG"], ["title", "Rolex"], ["updated_at", "2014-09-02 05:44:23.995296"]]
+  [1m[36m (3.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/galleries/6
+Completed 302 Found in 818ms (ActiveRecord: 4.8ms)
+
+
+Started GET "/galleries/6" for 127.0.0.1 at 2014-09-02 01:44:24 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mGallery Load (0.3ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 6]]
+  Rendered galleries/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 8ms (Views: 5.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:44:24 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:44:24 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:44:24 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:44:24 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:44:24 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:44:24 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:44:24 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:44:24 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:44:24 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:44:24 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:44:24 -0400
+
+
+Started GET "/galleries/6/paintings/28" for 127.0.0.1 at 2014-09-02 01:44:28 -0400
+Processing by PaintingsController#show as HTML
+  Parameters: {"gallery_id"=>"6", "id"=>"28"}
+  [1m[35mGallery Load (0.4ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."id" = $1 LIMIT 1[0m  [["id", 28]]
+  Rendered paintings/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 19ms (Views: 16.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/galleries/6" for 127.0.0.1 at 2014-09-02 01:44:31 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mGallery Load (0.4ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 6]]
+  Rendered galleries/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 10ms (Views: 6.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:44:33 -0400
+Processing by GalleriesController#index as HTML
+  [1m[35mGallery Load (0.5ms)[0m  SELECT "galleries".* FROM "galleries"
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 2]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 4]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 4]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 5]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 5]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 6]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 6]]
+  Rendered galleries/index.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 26ms (Views: 23.0ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/galleries/6" for 127.0.0.1 at 2014-09-02 01:44:38 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mGallery Load (0.3ms)[0m  [1mSELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mPainting Load (0.4ms)[0m  SELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 6]]
+  Rendered galleries/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/galleries/6/paintings/new" for 127.0.0.1 at 2014-09-02 01:44:40 -0400
+Processing by PaintingsController#new as HTML
+  Parameters: {"gallery_id"=>"6"}
+  [1m[36mGallery Load (0.3ms)[0m  [1mSELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  Rendered paintings/_form.html.erb (4.0ms)
+  Rendered paintings/new.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/galleries/6/paintings" for 127.0.0.1 at 2014-09-02 01:44:41 -0400
+Processing by PaintingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"k8bHvv2/cde8FhvnwFGhLgC4QwYaLnGC5h+AH3EbgJI=", "painting"=>{"title"=>"", "remote_image_url"=>""}, "commit"=>"Create Painting", "gallery_id"=>"6"}
+  [1m[35mGallery Load (0.2ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered paintings/_form.html.erb (3.3ms)
+  Rendered paintings/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 13ms (Views: 9.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:44:41 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:44:41 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:44:41 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:44:41 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:44:41 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:44:41 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:44:41 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:44:41 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:44:41 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:44:41 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:44:41 -0400
+
+
+Started POST "/galleries/6/paintings" for 127.0.0.1 at 2014-09-02 01:44:55 -0400
+Processing by PaintingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"k8bHvv2/cde8FhvnwFGhLgC4QwYaLnGC5h+AH3EbgJI=", "painting"=>{"title"=>"Aw!", "image"=>#<ActionDispatch::Http::UploadedFile:0x007facebb46988 @tempfile=#<Tempfile:/var/folders/rx/ghjwmmg56d1_fx_7k_sfhzsc0000gn/T/RackMultipart20140902-16825-1jk6u2h>, @original_filename="haha=) 003.JPG", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"painting[image]\"; filename=\"haha=) 003.JPG\"\r\nContent-Type: image/jpeg\r\n">, "remote_image_url"=>""}, "commit"=>"Create Painting", "gallery_id"=>"6"}
+  [1m[36mGallery Load (0.3ms)[0m  [1mSELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "paintings" ("created_at", "gallery_id", "image", "title", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2014-09-02 05:44:56.459002"], ["gallery_id", 6], ["image", "haha___003.JPG"], ["title", "Aw!"], ["updated_at", "2014-09-02 05:44:56.459002"]]
+  [1m[35m (3.9ms)[0m  COMMIT
+Redirected to http://127.0.0.1:3000/galleries/6
+Completed 302 Found in 834ms (ActiveRecord: 4.8ms)
+
+
+Started GET "/galleries/6" for 127.0.0.1 at 2014-09-02 01:44:56 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mGallery Load (0.3ms)[0m  [1mSELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 6]]
+  Rendered galleries/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 8ms (Views: 5.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:44:56 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:44:56 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:44:56 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:44:56 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:44:56 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:44:56 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:44:56 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:44:56 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:44:56 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:44:56 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:44:56 -0400
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:44:58 -0400
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.4ms)[0m  [1mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 2]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 2]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 4]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 4]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 5]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 5]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 6]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 6]]
+  Rendered galleries/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 15ms (Views: 12.5ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/galleries/2" for 127.0.0.1 at 2014-09-02 01:45:09 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mGallery Load (0.3ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  Rendered galleries/show.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 9ms (Views: 6.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/galleries/2" for 127.0.0.1 at 2014-09-02 01:46:25 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mGallery Load (0.3ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  Rendered galleries/show.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 10ms (Views: 7.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:46:25 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:46:25 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:46:25 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:46:25 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:46:25 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:46:25 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:46:25 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:46:25 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:46:25 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:46:25 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:46:25 -0400
+
+
+Started GET "/galleries/2" for 127.0.0.1 at 2014-09-02 01:46:44 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mGallery Load (0.3ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  Rendered galleries/show.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 41ms (Views: 38.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:46:44 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:46:44 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:46:44 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:46:44 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:46:44 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:46:44 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:46:44 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:46:44 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:46:44 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:46:44 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:46:45 -0400
+
+
+Started GET "/galleries/2" for 127.0.0.1 at 2014-09-02 01:46:55 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mGallery Load (0.3ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  Rendered galleries/show.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 38ms (Views: 35.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:46:55 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:46:55 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:46:55 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:46:55 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:46:55 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:46:55 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:46:55 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:46:55 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:46:55 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:46:55 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:46:55 -0400
+
+
+Started GET "/galleries/2" for 127.0.0.1 at 2014-09-02 01:47:00 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mGallery Load (0.3ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mPainting Load (0.4ms)[0m  [1mSELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  Rendered galleries/show.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 40ms (Views: 37.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:47:00 -0400
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:47:00 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:47:00 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:47:00 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:47:00 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:47:00 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:47:00 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:47:00 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:47:00 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:47:00 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:47:00 -0400
+
+
+Started GET "/galleries/2" for 127.0.0.1 at 2014-09-02 01:47:09 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mGallery Load (0.3ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  Rendered galleries/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 37ms (Views: 34.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:47:09 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:47:09 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:47:09 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:47:09 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:47:09 -0400
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:47:09 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:47:09 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:47:09 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:47:09 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:47:09 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:47:09 -0400
+
+
+Started GET "/galleries/2" for 127.0.0.1 at 2014-09-02 01:47:16 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mGallery Load (0.3ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  Rendered galleries/show.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 11ms (Views: 9.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:47:16 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:47:16 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:47:16 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:47:16 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:47:16 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:47:16 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:47:16 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:47:16 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:47:16 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:47:16 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:47:16 -0400
+
+
+Started GET "/galleries/2" for 127.0.0.1 at 2014-09-02 01:47:18 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mGallery Load (0.3ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mPainting Load (0.4ms)[0m  [1mSELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  Rendered galleries/show.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 10ms (Views: 7.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:47:18 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:47:18 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:47:18 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:47:18 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:47:18 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:47:18 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:47:18 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:47:18 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:47:18 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:47:18 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:47:18 -0400
+
+
+Started GET "/galleries/2" for 127.0.0.1 at 2014-09-02 01:47:35 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mGallery Load (0.3ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  Rendered galleries/show.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 12ms (Views: 9.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:47:35 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:47:35 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:47:35 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:47:35 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:47:35 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:47:35 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:47:35 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:47:35 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:47:35 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:47:35 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:47:35 -0400
+
+
+Started GET "/galleries/2" for 127.0.0.1 at 2014-09-02 01:47:56 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mGallery Load (0.3ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  Rendered galleries/show.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 43ms (Views: 40.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:47:56 -0400
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:47:56 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:47:56 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:47:56 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:47:56 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:47:56 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:47:56 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:47:56 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:47:56 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:47:56 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:47:56 -0400
+
+
+Started GET "/galleries/2" for 127.0.0.1 at 2014-09-02 01:48:11 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mGallery Load (0.2ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  Rendered galleries/show.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 10ms (Views: 7.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:48:11 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:48:11 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:48:11 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:48:11 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:48:11 -0400
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:48:11 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:48:11 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:48:11 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:48:11 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:48:11 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:48:11 -0400
+
+
+Started GET "/galleries/2" for 127.0.0.1 at 2014-09-02 01:48:17 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mGallery Load (0.3ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  Rendered galleries/show.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 11ms (Views: 8.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:48:17 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:48:17 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:48:17 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:48:17 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:48:17 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:48:17 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:48:17 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:48:17 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:48:17 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:48:17 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:48:17 -0400
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:48:21 -0400
+Processing by GalleriesController#index as HTML
+  [1m[35mGallery Load (0.6ms)[0m  SELECT "galleries".* FROM "galleries"
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 4]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 4]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 5]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 5]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 6]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 6]]
+  Rendered galleries/index.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 27ms (Views: 23.8ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/galleries/2" for 127.0.0.1 at 2014-09-02 01:48:31 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mGallery Load (0.2ms)[0m  [1mSELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 2]]
+  Rendered galleries/show.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:48:33 -0400
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.3ms)[0m  [1mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 2]]
+  [1m[36mPainting Load (0.4ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 2]]
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 4]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 4]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 5]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 5]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 6]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 6]]
+  Rendered galleries/index.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 17ms (Views: 13.7ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:51:55 -0400
+Processing by GalleriesController#index as HTML
+  [1m[35mGallery Load (0.4ms)[0m  SELECT "galleries".* FROM "galleries"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 4]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 4]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 5]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 5]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 6]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 6]]
+  Rendered galleries/index.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 18ms (Views: 14.7ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:51:55 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:51:55 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:51:55 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:51:55 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:51:55 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:51:55 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:51:55 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:51:55 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:51:55 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:51:55 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:51:55 -0400
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:52:44 -0400
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.5ms)[0m  [1mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 2]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 2]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 4]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 4]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 5]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 5]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 6]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 6]]
+  Rendered galleries/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 47ms (Views: 44.2ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:52:44 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:52:44 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:52:44 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:52:44 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:52:44 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:52:44 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:52:44 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:52:44 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:52:44 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:52:44 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:52:44 -0400
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:52:53 -0400
+Processing by GalleriesController#index as HTML
+  [1m[35mGallery Load (0.3ms)[0m  SELECT "galleries".* FROM "galleries"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 4]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 4]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 5]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 5]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 6]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 6]]
+  Rendered galleries/index.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 45ms (Views: 42.3ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:52:53 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:52:53 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:52:53 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:52:53 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:52:53 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:52:53 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:52:53 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:52:53 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:52:53 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:52:53 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:52:53 -0400
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:53:17 -0400
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.6ms)[0m  [1mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 2]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 2]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 4]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 4]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 5]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 5]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 6]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 6]]
+  Rendered galleries/index.html.erb within layouts/application (46.8ms)
+Completed 200 OK in 85ms (Views: 82.2ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:53:17 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:53:17 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:53:17 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:53:17 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:53:17 -0400
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:53:17 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:53:17 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:53:17 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:53:17 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:53:17 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:53:17 -0400
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:53:29 -0400
+Processing by GalleriesController#index as HTML
+  [1m[35mGallery Load (0.4ms)[0m  SELECT "galleries".* FROM "galleries"
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  [1m[35mPainting Load (0.4ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 2]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 4]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 4]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 5]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 5]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 6]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 6]]
+  Rendered galleries/index.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 51ms (Views: 47.3ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:53:29 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:53:29 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:53:29 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:53:29 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:53:29 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:53:29 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:53:29 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:53:29 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:53:29 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:53:29 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:53:29 -0400
+
+
+Started GET "/galleries/2" for 127.0.0.1 at 2014-09-02 01:53:32 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mGallery Load (0.2ms)[0m  [1mSELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 2]]
+  Rendered galleries/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 9ms (Views: 6.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/galleries/new" for 127.0.0.1 at 2014-09-02 01:53:48 -0400
+Processing by GalleriesController#new as HTML
+  Rendered galleries/_form.html.erb (1.9ms)
+  Rendered galleries/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:53:56 -0400
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.4ms)[0m  [1mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 2]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 2]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 4]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 4]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 5]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 5]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 6]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 6]]
+  Rendered galleries/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 17ms (Views: 14.1ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:54:11 -0400
+Processing by GalleriesController#index as HTML
+  [1m[35mGallery Load (0.4ms)[0m  SELECT "galleries".* FROM "galleries"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 4]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 4]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 5]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 5]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 6]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 6]]
+  Rendered galleries/index.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 18ms (Views: 14.8ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:54:11 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:54:11 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:54:11 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:54:11 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:54:11 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:54:11 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:54:11 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:54:11 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:54:11 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:54:11 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:54:11 -0400
+
+
+Started GET "/galleries/new" for 127.0.0.1 at 2014-09-02 01:54:13 -0400
+Processing by GalleriesController#new as HTML
+  Rendered galleries/_form.html.erb (1.7ms)
+  Rendered galleries/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/galleries/new" for 127.0.0.1 at 2014-09-02 01:54:21 -0400
+Processing by GalleriesController#new as HTML
+  Rendered galleries/_form.html.erb (3.5ms)
+  Rendered galleries/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:54:21 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:54:21 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:54:21 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:54:21 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:54:21 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:54:21 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:54:21 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:54:21 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:54:21 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:54:21 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:54:21 -0400
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:54:27 -0400
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.4ms)[0m  [1mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 2]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 2]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 4]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 4]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 5]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 5]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 6]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 6]]
+  Rendered galleries/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 20ms (Views: 16.5ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/galleries/2" for 127.0.0.1 at 2014-09-02 01:54:28 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mGallery Load (0.2ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  Rendered galleries/show.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/galleries/5/edit" for 127.0.0.1 at 2014-09-02 01:54:37 -0400
+Processing by GalleriesController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mGallery Load (0.3ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 5]]
+  Rendered galleries/_form.html.erb (2.3ms)
+  Rendered galleries/edit.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/galleries/5/edit" for 127.0.0.1 at 2014-09-02 01:54:53 -0400
+Processing by GalleriesController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mGallery Load (0.2ms)[0m  [1mSELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  Rendered galleries/_form.html.erb (1.7ms)
+  Rendered galleries/edit.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:54:53 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:54:53 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:54:53 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:54:53 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:54:53 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:54:53 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:54:53 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:54:53 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:54:53 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:54:53 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:54:53 -0400
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:54:55 -0400
+Processing by GalleriesController#index as HTML
+  [1m[35mGallery Load (0.4ms)[0m  SELECT "galleries".* FROM "galleries"
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 4]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 4]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 5]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 5]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 6]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 6]]
+  Rendered galleries/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 16ms (Views: 13.2ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/galleries/2" for 127.0.0.1 at 2014-09-02 01:54:57 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mGallery Load (0.3ms)[0m  [1mSELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 2]]
+  Rendered galleries/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 9ms (Views: 6.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/galleries/2/paintings/22/edit" for 127.0.0.1 at 2014-09-02 01:54:58 -0400
+Processing by PaintingsController#edit as HTML
+  Parameters: {"gallery_id"=>"2", "id"=>"22"}
+  [1m[36mGallery Load (0.3ms)[0m  [1mSELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."id" = $1 LIMIT 1  [["id", 22]]
+  Rendered paintings/_form.html.erb (4.1ms)
+  Rendered paintings/edit.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 23ms (Views: 20.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/galleries/2/paintings/new" for 127.0.0.1 at 2014-09-02 01:55:02 -0400
+Processing by PaintingsController#new as HTML
+  Parameters: {"gallery_id"=>"2"}
+  [1m[36mGallery Load (0.3ms)[0m  [1mSELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered paintings/_form.html.erb (2.8ms)
+  Rendered paintings/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/galleries/2" for 127.0.0.1 at 2014-09-02 01:55:18 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mGallery Load (0.3ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  Rendered galleries/show.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 11ms (Views: 9.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:55:18 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:55:18 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:55:18 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:55:18 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:55:18 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:55:18 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:55:18 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:55:18 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:55:18 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:55:18 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:55:18 -0400
+
+
+Started GET "/galleries/2/paintings/22/edit" for 127.0.0.1 at 2014-09-02 01:55:19 -0400
+Processing by PaintingsController#edit as HTML
+  Parameters: {"gallery_id"=>"2", "id"=>"22"}
+  [1m[35mGallery Load (0.3ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."id" = $1 LIMIT 1[0m  [["id", 22]]
+  Rendered paintings/_form.html.erb (3.6ms)
+  Rendered paintings/edit.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 12ms (Views: 9.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/galleries/2/paintings/24/edit" for 127.0.0.1 at 2014-09-02 01:55:27 -0400
+Processing by PaintingsController#edit as HTML
+  Parameters: {"gallery_id"=>"2", "id"=>"24"}
+  [1m[35mGallery Load (0.3ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."id" = $1 LIMIT 1[0m  [["id", 24]]
+  Rendered paintings/_form.html.erb (2.1ms)
+  Rendered paintings/edit.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 10ms (Views: 7.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/galleries/2/paintings/new" for 127.0.0.1 at 2014-09-02 01:55:31 -0400
+Processing by PaintingsController#new as HTML
+  Parameters: {"gallery_id"=>"2"}
+  [1m[35mGallery Load (0.3ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered paintings/_form.html.erb (2.0ms)
+  Rendered paintings/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:55:37 -0400
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.4ms)[0m  [1mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 2]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 2]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 4]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 4]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 5]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 5]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 6]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 6]]
+  Rendered galleries/index.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 17ms (Views: 13.5ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/galleries/2/edit" for 127.0.0.1 at 2014-09-02 01:55:42 -0400
+Processing by GalleriesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mGallery Load (0.3ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered galleries/_form.html.erb (1.7ms)
+  Rendered galleries/edit.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/galleries/2" for 127.0.0.1 at 2014-09-02 01:55:46 -0400
+Processing by GalleriesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"k8bHvv2/cde8FhvnwFGhLgC4QwYaLnGC5h+AH3EbgJI=", "gallery"=>{"title"=>"Nintendo"}, "commit"=>"Update Gallery", "id"=>"2"}
+  [1m[36mGallery Load (0.3ms)[0m  [1mSELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "galleries" SET "title" = $1, "updated_at" = $2 WHERE "galleries"."id" = 2[0m  [["title", "Nintendo"], ["updated_at", "2014-09-02 05:55:46.281598"]]
+  [1m[35m (8.4ms)[0m  COMMIT
+Redirected to http://127.0.0.1:3000/galleries/2
+Completed 302 Found in 15ms (ActiveRecord: 9.3ms)
+
+
+Started GET "/galleries/2" for 127.0.0.1 at 2014-09-02 01:55:46 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mGallery Load (0.3ms)[0m  [1mSELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 2]]
+  Rendered galleries/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 9ms (Views: 6.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:55:46 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:55:46 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:55:46 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:55:46 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:55:46 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:55:46 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:55:46 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:55:46 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:55:46 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:55:46 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:55:46 -0400
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:55:53 -0400
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.4ms)[0m  [1mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 4]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 4]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 5]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 5]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 6]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 6]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 2]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 2]]
+  Rendered galleries/index.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 18ms (Views: 14.3ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/galleries/5/edit" for 127.0.0.1 at 2014-09-02 01:55:59 -0400
+Processing by GalleriesController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mGallery Load (0.2ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 5]]
+  Rendered galleries/_form.html.erb (1.6ms)
+  Rendered galleries/edit.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/galleries/5" for 127.0.0.1 at 2014-09-02 01:56:04 -0400
+Processing by GalleriesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"k8bHvv2/cde8FhvnwFGhLgC4QwYaLnGC5h+AH3EbgJI=", "gallery"=>{"title"=>"Movies"}, "commit"=>"Update Gallery", "id"=>"5"}
+  [1m[36mGallery Load (0.3ms)[0m  [1mSELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mUPDATE "galleries" SET "title" = $1, "updated_at" = $2 WHERE "galleries"."id" = 5[0m  [["title", "Movies"], ["updated_at", "2014-09-02 05:56:04.074679"]]
+  [1m[35m (7.7ms)[0m  COMMIT
+Redirected to http://127.0.0.1:3000/galleries/5
+Completed 302 Found in 13ms (ActiveRecord: 8.8ms)
+
+
+Started GET "/galleries/5" for 127.0.0.1 at 2014-09-02 01:56:04 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mGallery Load (0.2ms)[0m  [1mSELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 5]]
+  Rendered galleries/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:56:04 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:56:04 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:56:04 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:56:04 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:56:04 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:56:04 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:56:04 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:56:04 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:56:04 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:56:04 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:56:04 -0400
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:56:05 -0400
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.3ms)[0m  [1mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 4]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 4]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 6]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 6]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 2]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 2]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 5]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 5]]
+  Rendered galleries/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 18ms (Views: 14.6ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/galleries/4/edit" for 127.0.0.1 at 2014-09-02 01:56:11 -0400
+Processing by GalleriesController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mGallery Load (0.3ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 4]]
+  Rendered galleries/_form.html.erb (2.0ms)
+  Rendered galleries/edit.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 9ms (Views: 7.2ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/galleries/4" for 127.0.0.1 at 2014-09-02 01:56:13 -0400
+Processing by GalleriesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"k8bHvv2/cde8FhvnwFGhLgC4QwYaLnGC5h+AH3EbgJI=", "gallery"=>{"title"=>"Doge"}, "commit"=>"Update Gallery", "id"=>"4"}
+  [1m[36mGallery Load (0.2ms)[0m  [1mSELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "galleries" SET "title" = $1, "updated_at" = $2 WHERE "galleries"."id" = 4[0m  [["title", "Doge"], ["updated_at", "2014-09-02 05:56:13.900532"]]
+  [1m[35m (8.2ms)[0m  COMMIT
+Redirected to http://127.0.0.1:3000/galleries/4
+Completed 302 Found in 13ms (ActiveRecord: 9.0ms)
+
+
+Started GET "/galleries/4" for 127.0.0.1 at 2014-09-02 01:56:13 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mGallery Load (0.3ms)[0m  [1mSELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 4]]
+  Rendered galleries/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:56:13 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:56:13 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:56:13 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:56:13 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:56:13 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:56:13 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:56:13 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:56:13 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:56:13 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:56:13 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:56:13 -0400
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:56:15 -0400
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.3ms)[0m  [1mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 6]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 6]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 2]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 2]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 5]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 5]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 4]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 4]]
+  Rendered galleries/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 16ms (Views: 13.1ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/galleries/6/edit" for 127.0.0.1 at 2014-09-02 01:56:18 -0400
+Processing by GalleriesController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mGallery Load (0.2ms)[0m  SELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1  [["id", 6]]
+  Rendered galleries/_form.html.erb (1.5ms)
+  Rendered galleries/edit.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/galleries/6" for 127.0.0.1 at 2014-09-02 01:56:20 -0400
+Processing by GalleriesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"k8bHvv2/cde8FhvnwFGhLgC4QwYaLnGC5h+AH3EbgJI=", "gallery"=>{"title"=>"Cute"}, "commit"=>"Update Gallery", "id"=>"6"}
+  [1m[36mGallery Load (0.3ms)[0m  [1mSELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "galleries" SET "title" = $1, "updated_at" = $2 WHERE "galleries"."id" = 6[0m  [["title", "Cute"], ["updated_at", "2014-09-02 05:56:20.733759"]]
+  [1m[35m (7.9ms)[0m  COMMIT
+Redirected to http://127.0.0.1:3000/galleries/6
+Completed 302 Found in 13ms (ActiveRecord: 8.8ms)
+
+
+Started GET "/galleries/6" for 127.0.0.1 at 2014-09-02 01:56:20 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mGallery Load (0.3ms)[0m  [1mSELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 6]]
+  Rendered galleries/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 9ms (Views: 6.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:56:20 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:56:20 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:56:20 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:56:20 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:56:20 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:56:20 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:56:20 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:56:20 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:56:20 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:56:20 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:56:20 -0400
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:56:23 -0400
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.3ms)[0m  [1mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 2]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 2]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 5]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 5]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 4]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 4]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 6]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 6]]
+  Rendered galleries/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 15ms (Views: 12.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:56:46 -0400
+Processing by GalleriesController#index as HTML
+  [1m[35mGallery Load (0.4ms)[0m  SELECT "galleries".* FROM "galleries"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 2]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 5]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 5]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 4]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 4]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 6]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 6]]
+  Rendered galleries/index.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 48ms (Views: 44.5ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:56:46 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:56:46 -0400
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:56:46 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:56:46 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:56:46 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:56:46 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:56:46 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:56:46 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:56:46 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:56:46 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:56:46 -0400
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:57:10 -0400
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.3ms)[0m  [1mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 2]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 2]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 5]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 5]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 4]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 4]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 6]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 6]]
+  Rendered galleries/index.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 48ms (Views: 44.8ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:57:10 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:57:10 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:57:10 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:57:10 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:57:10 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:57:10 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:57:10 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:57:10 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:57:10 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:57:10 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:57:10 -0400
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:57:35 -0400
+Processing by GalleriesController#index as HTML
+  [1m[35mGallery Load (0.4ms)[0m  SELECT "galleries".* FROM "galleries"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 2]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 5]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 5]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 4]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 4]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 6]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 6]]
+  Rendered galleries/index.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 49ms (Views: 45.7ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:57:35 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:57:35 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:57:35 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:57:35 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:57:35 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:57:35 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:57:35 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:57:35 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:57:35 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:57:35 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:57:35 -0400
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:58:03 -0400
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.4ms)[0m  [1mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 2]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 2]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 5]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 5]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 4]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 4]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 6]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 6]]
+  Rendered galleries/index.html.erb within layouts/application (47.5ms)
+Completed 200 OK in 81ms (Views: 78.4ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:58:03 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:58:03 -0400
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:58:03 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:58:03 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:58:03 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:58:03 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:58:03 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:58:03 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:58:03 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:58:03 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:58:03 -0400
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:58:15 -0400
+Processing by GalleriesController#index as HTML
+  [1m[35mGallery Load (0.4ms)[0m  SELECT "galleries".* FROM "galleries"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 2]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 5]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 5]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 4]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 4]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 6]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 6]]
+  Rendered galleries/index.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 52ms (Views: 48.9ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:58:16 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:58:16 -0400
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:58:16 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:58:16 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:58:16 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:58:16 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:58:16 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:58:16 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:58:16 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:58:16 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:58:16 -0400
+
+
+Started GET "/galleries/new" for 127.0.0.1 at 2014-09-02 01:58:31 -0400
+Processing by GalleriesController#new as HTML
+  Rendered galleries/_form.html.erb (1.5ms)
+  Rendered galleries/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:58:32 -0400
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.4ms)[0m  [1mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 2]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 2]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 5]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 5]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 4]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 4]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 6]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 6]]
+  Rendered galleries/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 16ms (Views: 13.2ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/galleries/new" for 127.0.0.1 at 2014-09-02 01:58:34 -0400
+Processing by GalleriesController#new as HTML
+  Rendered galleries/_form.html.erb (1.5ms)
+  Rendered galleries/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:58:39 -0400
+Processing by GalleriesController#index as HTML
+  [1m[35mGallery Load (0.4ms)[0m  SELECT "galleries".* FROM "galleries"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 5]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 5]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 4]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 4]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 6]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 6]]
+  Rendered galleries/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 14ms (Views: 11.7ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/galleries/4" for 127.0.0.1 at 2014-09-02 01:58:41 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mGallery Load (0.3ms)[0m  [1mSELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 4]]
+  Rendered galleries/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 8ms (Views: 6.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:58:45 -0400
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.4ms)[0m  [1mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 2]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 2]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 5]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 5]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 4]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 4]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 6]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 6]]
+  Rendered galleries/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 16ms (Views: 13.5ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:59:12 -0400
+Processing by GalleriesController#index as HTML
+  [1m[35mGallery Load (0.4ms)[0m  SELECT "galleries".* FROM "galleries"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 2]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 5]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 5]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 4]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 4]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 6]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 6]]
+  Rendered galleries/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 49ms (Views: 46.2ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:59:12 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:59:12 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:59:12 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:59:12 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:59:12 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:59:12 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:59:12 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:59:12 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:59:12 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:59:12 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:59:12 -0400
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:59:22 -0400
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.5ms)[0m  [1mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 2]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 2]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 5]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 5]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 4]]
+  [1m[36mPainting Load (0.4ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 4]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 6]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 6]]
+  Rendered galleries/index.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 34ms (Views: 30.6ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:59:22 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:59:22 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:59:22 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:59:22 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:59:22 -0400
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:59:22 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:59:22 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:59:22 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:59:22 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:59:22 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:59:22 -0400
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:59:31 -0400
+Processing by GalleriesController#index as HTML
+  [1m[35mGallery Load (0.4ms)[0m  SELECT "galleries".* FROM "galleries"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 2]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 5]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 5]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 4]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 4]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 6]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 6]]
+  Rendered galleries/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 49ms (Views: 46.1ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 01:59:31 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:59:31 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 01:59:31 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 01:59:31 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:59:31 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:59:31 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 01:59:31 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:59:31 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 01:59:31 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 01:59:31 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 01:59:31 -0400
+
+
+Started GET "/galleries/2" for 127.0.0.1 at 2014-09-02 01:59:40 -0400
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mGallery Load (0.3ms)[0m  [1mSELECT  "galleries".* FROM "galleries"  WHERE "galleries"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 2]]
+  Rendered galleries/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 01:59:42 -0400
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.4ms)[0m  [1mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 2]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 2]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 5]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 5]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 4]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 4]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 6]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 6]]
+  Rendered galleries/index.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 16ms (Views: 13.1ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 02:00:01 -0400
+Processing by GalleriesController#index as HTML
+  [1m[35mGallery Load (0.4ms)[0m  SELECT "galleries".* FROM "galleries"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 2]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 5]]
+  [1m[35mPainting Load (0.4ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 5]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 4]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 4]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 6]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 6]]
+  Rendered galleries/index.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 45ms (Views: 41.9ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 02:00:01 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 02:00:01 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 02:00:01 -0400
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 02:00:01 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 02:00:01 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 02:00:01 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 02:00:01 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 02:00:01 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 02:00:01 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 02:00:01 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 02:00:01 -0400
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 02:00:21 -0400
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.4ms)[0m  [1mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 2]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 2]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 5]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 5]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 4]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 4]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 6]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 6]]
+  Rendered galleries/index.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 49ms (Views: 46.2ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 02:00:21 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 02:00:21 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 02:00:21 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 02:00:21 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 02:00:21 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 02:00:21 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 02:00:21 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 02:00:21 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 02:00:21 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 02:00:21 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 02:00:21 -0400
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 02:00:38 -0400
+Processing by GalleriesController#index as HTML
+  [1m[35mGallery Load (0.3ms)[0m  SELECT "galleries".* FROM "galleries"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 5]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 5]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 4]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 4]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 6]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 6]]
+  Rendered galleries/index.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 45ms (Views: 42.1ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 02:00:38 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 02:00:38 -0400
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 02:00:38 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 02:00:38 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 02:00:38 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 02:00:38 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 02:00:38 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 02:00:38 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 02:00:38 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 02:00:38 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 02:00:38 -0400
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 02:00:46 -0400
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.3ms)[0m  [1mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 2]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 2]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 5]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 5]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 4]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 4]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 6]]
+  [1m[36mPainting Load (0.2ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 6]]
+  Rendered galleries/index.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 46ms (Views: 42.4ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 02:00:46 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 02:00:46 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 02:00:46 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 02:00:46 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 02:00:46 -0400
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 02:00:46 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 02:00:46 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 02:00:46 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 02:00:46 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 02:00:46 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 02:00:46 -0400
+
+
+Started GET "/galleries" for 127.0.0.1 at 2014-09-02 02:00:53 -0400
+Processing by GalleriesController#index as HTML
+  [1m[35mGallery Load (0.4ms)[0m  SELECT "galleries".* FROM "galleries"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 5]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 5]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 4]]
+  [1m[35mPainting Load (0.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 4]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 6]]
+  [1m[35mPainting Load (0.3ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 6]]
+  Rendered galleries/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 50ms (Views: 46.9ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/gallery.css?body=1" for 127.0.0.1 at 2014-09-02 02:00:53 -0400
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-09-02 02:00:53 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 02:00:53 -0400
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-09-02 02:00:53 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 02:00:53 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 02:00:53 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 02:00:53 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 02:00:53 -0400
+
+
+Started GET "/assets/index" for 127.0.0.1 at 2014-09-02 02:00:53 -0400
+
+
+Started GET "/assets/gallery" for 127.0.0.1 at 2014-09-02 02:00:53 -0400
+
+
+Started GET "/assets/reset" for 127.0.0.1 at 2014-09-02 02:00:53 -0400

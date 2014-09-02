@@ -1,3 +1,4 @@
+<div class="gallery">
 <%= form_for([@gallery, @gallery.paintings.build], :html => {:multipart => true}) do |f| %>
   <% if @painting.errors.any? %>
   <div id="error_explanation">
@@ -28,3 +29,4 @@
     <%= f.submit %>
   </p>
 <% end %>
+</div>

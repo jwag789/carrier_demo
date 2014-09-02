@@ -1,10 +1,17 @@
 <h1>Image Uploading!</h1><br><br>
+<h2>Galleries</h2><br><br>
 
 <% @galleries.each do |gallery| %>
-<h3><%= link_to "#{gallery.title}", gallery_path(gallery) %></h3><br>
-<%= link_to image_tag(gallery.paintings.last.image_url(:thumb).to_s), gallery_path(gallery)  %><br><br>
+<div class="gallery">
+<h2><%= link_to "#{gallery.title}", gallery_path(gallery) %></h2><br>
+<% if gallery.paintings.count > 0 %>
+	<div class="thumb"><%= link_to image_tag(gallery.paintings.last.image_url(:thumb).to_s), gallery_path(gallery)  %>
+<% else %>
+	<div class="thumb"><div class="placeholder"></div>
+<% end %></div><br><br>
 <small><%= link_to 'Edit', edit_gallery_path(gallery) %></small>
 <small><%= link_to 'Delete', gallery_path(gallery), method: :delete, data: {confirm: 'Are you sure?' } %></small><br><br><br>
+</div>
 <% end %>
 <br><br>
 <%= link_to "Create New Gallery", new_gallery_path %>
