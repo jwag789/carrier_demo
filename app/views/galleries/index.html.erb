@@ -1,11 +1,10 @@
-<div class="container">
 <h1>Image Uploading!</h1><br><br>
 
 <% @galleries.each do |gallery| %>
-<h3><%= link_to "#{gallery.title}", gallery_path(gallery) %></h3>
+<h3><%= link_to "#{gallery.title}", gallery_path(gallery) %></h3><br>
+<%= link_to image_tag(gallery.paintings.last.image_url(:thumb).to_s), gallery_path(gallery)  %><br><br>
 <small><%= link_to 'Edit', edit_gallery_path(gallery) %></small>
-<small><%= link_to 'Delete', gallery_path(gallery), method: :delete, data: {confirm: 'Are you sure?' } %></small>
+<small><%= link_to 'Delete', gallery_path(gallery), method: :delete, data: {confirm: 'Are you sure?' } %></small><br><br><br>
 <% end %>
 <br><br>
 <%= link_to "Create New Gallery", new_gallery_path %>
-</div>
