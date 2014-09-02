@@ -1,0 +1,9 @@
+<h1>Image Uploading!</h1>
+
+<% @galleries.each do |gallery| %>
+<h3><%= link_to "#{gallery.title}", gallery_path(gallery) %></h3>
+<small><%= link_to 'Edit', edit_gallery_path(gallery) %></small>
+<small><%= link_to 'Delete', gallery_path(gallery), method: :delete, data: {confirm: 'Are you sure?' } %></small>
+<% end %>
+<br><br>
+<%= link_to "Create New Gallery", new_gallery_path %>

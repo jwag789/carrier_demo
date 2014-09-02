@@ -1,0 +1,11 @@
+<h1><%= @gallery.title %></h1>
+
+<% @paintings.each do |painting| %>
+<h3><%= painting.title %></h3>
+<%= image_tag painting.image_url(:thumb).to_s %>
+<small><%= link_to 'Edit', edit_gallery_painting_path(@gallery, painting) %></small>
+<small><%= link_to 'Delete', gallery_painting_path(@gallery, painting), method: :delete, data: {confirm: 'Are you sure?' } %></small>
+<% end %>
+<br><br>
+<%= link_to "Create Painting", new_gallery_painting_path(@gallery) %>
+<%= link_to 'Back', galleries_path %>
