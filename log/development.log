@@ -21997,3 +21997,79 @@ Processing by GalleriesController#index as HTML
   [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 6]]
   Rendered galleries/index.html.erb within layouts/application (12.9ms)
 Completed 200 OK in 18ms (Views: 14.4ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 10:51:09 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (1.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GalleriesController#index as HTML
+  [1m[35mGallery Load (1.7ms)[0m  SELECT "galleries".* FROM "galleries"
+  [1m[36m (1.1ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  [1m[35mPainting Load (1.2ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 2]]
+  Rendered galleries/index.html.erb within layouts/application (62.2ms)
+Completed 500 Internal Server Error in 133ms
+
+ActionView::Template::Error ( is not a recognized storage provider):
+     5: <div class="gallery">
+     6: <h2><%= link_to "#{gallery.title}", gallery_path(gallery) %></h2><br>
+     7: <% if gallery.paintings.count > 0 %>
+     8: 	<div class="thumb"><%= link_to image_tag(gallery.paintings.last.image_url(:thumb).to_s), gallery_path(gallery)  %>
+     9: <% else %>
+    10: 	<div class="thumb"><div class="placeholder"></div>
+    11: <% end %></div><br><br>
+  app/views/galleries/index.html.erb:8:in `block in _app_views_galleries_index_html_erb__1241580244887310996_70248106258420'
+  app/views/galleries/index.html.erb:4:in `_app_views_galleries_index_html_erb__1241580244887310996_70248106258420'
+
+
+  Rendered /Users/justinwagner/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/justinwagner/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/justinwagner/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 10:53:26 -0400
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.4ms)[0m  [1mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1  [["gallery_id", 2]]
+  [1m[36mPainting Load (0.3ms)[0m  [1mSELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1[0m  [["gallery_id", 2]]
+  Rendered galleries/index.html.erb within layouts/application (5.1ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error ( is not a recognized storage provider):
+     5: <div class="gallery">
+     6: <h2><%= link_to "#{gallery.title}", gallery_path(gallery) %></h2><br>
+     7: <% if gallery.paintings.count > 0 %>
+     8: 	<div class="thumb"><%= link_to image_tag(gallery.paintings.last.image_url(:thumb).to_s), gallery_path(gallery)  %>
+     9: <% else %>
+    10: 	<div class="thumb"><div class="placeholder"></div>
+    11: <% end %></div><br><br>
+  app/views/galleries/index.html.erb:8:in `block in _app_views_galleries_index_html_erb__1241580244887310996_70248106258420'
+  app/views/galleries/index.html.erb:4:in `_app_views_galleries_index_html_erb__1241580244887310996_70248106258420'
+
+
+  Rendered /Users/justinwagner/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/justinwagner/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/justinwagner/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 10:53:28 -0400
+Processing by GalleriesController#index as HTML
+  [1m[35mGallery Load (0.5ms)[0m  SELECT "galleries".* FROM "galleries"
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  [1m[35mPainting Load (0.5ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 2]]
+  Rendered galleries/index.html.erb within layouts/application (7.4ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error ( is not a recognized storage provider):
+     5: <div class="gallery">
+     6: <h2><%= link_to "#{gallery.title}", gallery_path(gallery) %></h2><br>
+     7: <% if gallery.paintings.count > 0 %>
+     8: 	<div class="thumb"><%= link_to image_tag(gallery.paintings.last.image_url(:thumb).to_s), gallery_path(gallery)  %>
+     9: <% else %>
+    10: 	<div class="thumb"><div class="placeholder"></div>
+    11: <% end %></div><br><br>
+  app/views/galleries/index.html.erb:8:in `block in _app_views_galleries_index_html_erb__1241580244887310996_70248106258420'
+  app/views/galleries/index.html.erb:4:in `_app_views_galleries_index_html_erb__1241580244887310996_70248106258420'
+
+
+  Rendered /Users/justinwagner/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/justinwagner/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/justinwagner/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.7ms)
