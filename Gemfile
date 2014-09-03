@@ -16,6 +16,10 @@ gem 'rmagick', :require => 'RMagick'
 gem 'carrierwave'
 gem 'fog', '~> 1.3.1'
 gem 'compass-rails', '~> 1.1.3'
+group :production do
+  gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
+  gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
+end
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
 
