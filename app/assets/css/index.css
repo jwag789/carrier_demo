@@ -1,0 +1,51 @@
+/* line 5, ../compass/sass/index.css.sass */
+body {
+  font-size: 16px;
+  font-family: "Play", sans-serif;
+  color: #060e21;
+}
+/* line 10, ../compass/sass/index.css.sass */
+body h1 {
+  font-size: 3em;
+}
+/* line 12, ../compass/sass/index.css.sass */
+body h2 {
+  font-size: 2em;
+}
+
+/* line 15, ../compass/sass/index.css.sass */
+.container {
+  margin: 50px;
+  padding: 20px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: 10px double crimson;
+}
+/* line 25, ../compass/sass/index.css.sass */
+.container a {
+  color: crimson;
+}
+
+/* line 28, ../compass/sass/index.css.sass */
+.gallery {
+  padding: 20px;
+  margin: 20px;
+  border: 1px dashed black;
+  display: inline-block;
+}
+
+/* line 35, ../compass/sass/index.css.sass */
+.thumb {
+  background: lightgrey;
+  padding: 20px;
+}
+
+/* line 39, ../compass/sass/index.css.sass */
+.placeholder {
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  background: white;
+}
