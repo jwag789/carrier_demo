@@ -70,7 +70,7 @@ Rails.application.configure do
 
   # Send deprecation notices to registered listeners.
   config.active_support.deprecation = :notify
-
+  config.assets.precompile += ['application.css']
   # Disable automatic flushing of the log to improve performance.
   # config.autoflush_log = false
 
