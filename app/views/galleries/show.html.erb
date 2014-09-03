@@ -1,5 +1,6 @@
 <h1><%= @gallery.title %></h1>
 
+<div class="paintings">
 <% @paintings.each do |painting| %>
 <div class="gallery"><div class="thumb">
 <h3><%= painting.title %></h3><br>
@@ -8,6 +9,8 @@
 <small><%= link_to 'Delete', gallery_painting_path(@gallery, painting), method: :delete, data: {confirm: 'Are you sure?' } %></small>
 </div></div>
 <% end %>
+</div>
 <br><br>
+<%= render 'paintings/form' %>
 <%= link_to "Create Painting", new_gallery_painting_path(@gallery) %>
 <%= link_to 'Back', galleries_path %>

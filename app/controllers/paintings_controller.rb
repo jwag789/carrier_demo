@@ -13,10 +13,17 @@ class PaintingsController < ApplicationController
 		@gallery = Gallery.find(params[:gallery_id])
 		@painting = Painting.new(painting_params)
 		@painting.gallery_id = params[:gallery_id]
-		if @painting.save
-			redirect_to gallery_path(params[:gallery_id])
-		else
-			render 'new'
+
+		respond_to do |format|
+
+			if @painting.save
+				format.html { redirect_to gallery_path(params[:gallery_id]), notice: "Painting created!" }
+				format.json { render json: @painting, status: :created }
+			else
+				format.html { render :new }
+				format.json { render json: @painting.errors, status: :unprocessable_entity }
+			end
+
 		end
 	end
 
