@@ -22276,3 +22276,29 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 11:13:14
 
 
 Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 11:13:14 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 11:15:10 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GalleriesController#index as HTML
+  [1m[35mGallery Load (0.6ms)[0m  SELECT "galleries".* FROM "galleries"
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "paintings"  WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 2]]
+  [1m[35mPainting Load (0.5ms)[0m  SELECT  "paintings".* FROM "paintings"  WHERE "paintings"."gallery_id" = $1  ORDER BY "paintings"."id" DESC LIMIT 1  [["gallery_id", 2]]
+  Rendered galleries/index.html.erb within layouts/application (100.5ms)
+Completed 500 Internal Server Error in 123ms
+
+ActionView::Template::Error ( is not a recognized storage provider):
+     5: <div class="gallery">
+     6: <h2><%= link_to "#{gallery.title}", gallery_path(gallery) %></h2><br>
+     7: <% if gallery.paintings.count > 0 %>
+     8: 	<div class="thumb"><%= link_to image_tag(gallery.paintings.last.image_url(:thumb).to_s), gallery_path(gallery)  %>
+     9: <% else %>
+    10: 	<div class="thumb"><div class="placeholder"></div>
+    11: <% end %></div><br><br>
+  app/views/galleries/index.html.erb:8:in `block in _app_views_galleries_index_html_erb__3827281889389001302_70248062938560'
+  app/views/galleries/index.html.erb:4:in `_app_views_galleries_index_html_erb__3827281889389001302_70248062938560'
+
+
+  Rendered /Users/justinwagner/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/justinwagner/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/justinwagner/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.1ms)
