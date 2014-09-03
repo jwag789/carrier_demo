@@ -18,5 +18,5 @@ CarrierWave.configure do |config|
 
 	config.cache_dir = "#{Rails.root}/tmp/uploads"
 
-	config.s3_acess_policy = :public_read
+	config.s3_access_policy = :public_read
 end
