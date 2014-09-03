@@ -15,6 +15,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'rmagick', :require => 'RMagick'
 gem 'carrierwave'
 gem 'fog', '~> 1.3.1'
+gem 'compass-rails', '~> 1.1.3'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
 
